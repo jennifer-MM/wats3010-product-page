@@ -1,0 +1,35 @@
+
+.times-new-roman {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    color: black;
+    text-align: center;
+    padding: 156px 0 100px;
+}
+
+.video {
+ margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ border: 20px solid #dddddd
+}
+  
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-flex {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-item-flex {
+    flex: 0 1 auto;
+}
