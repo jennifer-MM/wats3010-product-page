@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
         <meta charset="utf-8">
@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
                 integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
                 crossorigin="anonymous">
+
         <!-- End Bootstrap CSS Framework -->
 
         <!-- FontAwesome (https://fontawesome.com/how-to-use/svg-with-js#basic-use) -->
@@ -28,17 +29,15 @@
                 integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
                 crossorigin="anonymous">
 
-        <!-- TODO:apple-touch-icon, and tile images to best
-             support bookmarking. -->
+
 
 </head>
 
-<body>
+<body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
                 <div class="container">
                         <a class="navbar-brand js-scroll-trigger" href="#page-top">API Superstore</a>
-
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                                 data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                                 aria-label="Toggle navigation">
@@ -47,13 +46,13 @@
                         <div class="collapse navbar-collapse" id="navbarResponsive">
                                 <ul class="navbar-nav ml-auto">
                                         <li class="nav-item">
-                                                <a class="nav-link js-scroll-trigger" href="#about">Features</a>
+                                                <a class="nav-link js-scroll-trigger" href="#features">Features</a>
                                         </li>
                                         <li class="nav-item">
-                                                <a class="nav-link js-scroll-trigger" href="#services">Customers</a>
+                                                <a class="nav-link js-scroll-trigger" href="#customers">Customer</a>
                                         </li>
                                         <li class="nav-item">
-                                                <a class="nav-link js-scroll-trigger" href="#contact">Learn More</a>
+                                                <a class="nav-link js-scroll-trigger" href="#learn more">Learn More</a>
                                         </li>
                                 </ul>
                         </div>
@@ -63,8 +62,10 @@
         <!-- TODO: Populate this page with all the content you deem
              necessary to create a compelling product page! -->
         <header class="times-new-roman">
-                <h1>We help companies empower their customers to design their own
-                        experiences</h1>
+                <div class="container text-center">
+                        <h1>We help companies empower their customers to design their own
+                                experiences</h1>
+                </div>
         </header>
 
 
@@ -79,55 +80,71 @@
         <!-- TODO: Create an area to put the long product description. -->
 
         <section id="features">
+                        <h3>Features<h3>
                 <div class="container">
                         <div class="row">
-                                <div class="column">
-                                        <h2>Features</h2>
-                                        <p class="lead">Why your team should use API Superstore:</p>
-                                        <div class="flex-center">
-                                                <ul>
-
-                                                        <li>Build data and API integrations</li>
-                                                        <li>Customize to fit your needs</li>
-                                                        <li>Automate repetitive tasks</li>
-                                                        <li>Provide better customer experience</li>
-                                                </ul>
-                                        </div>
+                                <div class="col-lg-8 mx-auto">
+                                        
+                                                        <p class="lead">What we can do for your team:</p>
+                                                        <ul>
+                                                                <li>Build data and API Integrations</li>
+                                                                <li>Customize our products to meet your needs</li>
+                                                                <li>Automate repetitive tasks so you can prioritize</li>
+                                                                <li>Provide better customer experience</li>
+                                                        </ul>
                                 </div>
                         </div>
                 </div>
         </section>
 
         <section id="customers">
-                <div class="container">
-                        <div class="row">
-                                <div class="column">
-                                        <h2>Customers</h2>
+                <h3>Customers</h3>
 
-                                        <img src="assets-1/images/customer11.jpg" alt="Customer" style="width:100%">
-                                </div>
-
-                                <div class="column">
-                                        <img src="assets-1/images/customer22.jpg" alt="Customer" style="width:100%">
-                                </div>
-                                
-                                <div class="column">
-                                        <img src="assets-1/images/customer33.jpg" alt="Customer" style="width:100%">
+                <div class="row">
+                        <div class="column">
+                                <div class="card">
+                                        <img src="assets-1/images/customer11.jpg" alt="Jane" style="width:100%">
+                                        <div class="container">
+                                                <h2>Erin</h2>
+                                                <p>We significantly enhanced our customer experience</p>
+                                        </div>
                                 </div>
                         </div>
+
+                        <div class="column">
+                                <div class="card">
+                                        <img src="assets-1/images/customer22.jpg" alt="Taylor" style="width:100%">
+                                        <div class="container">
+                                                <h2>Samantha</h2>
+                                                <p>We transformed our business management strategy</p>
+                                        </div>
+                                </div>
+                        </div>
+
+                        <div class="column">
+                                <div class="card">
+                                        <img src="assets-1/images/customer33.jpg" alt="Customer" style="width:100%">
+                                        <div class="container">
+                                                <h2>Bobby</h2>
+                                                <p>We had a 34% increase in our market share because of API Superstore</p>
+                                        </div>
+                                </div>
+                        </div>
+
+
+
+                </div>
                 </div>
         </section>
 
 
-        <section id="Learn more">
+        <section id="learn more">
+                        <h3>Learn more</h3>
                 <div class="container">
                         <div class="row">
                                 <div class="col-lg-8 mx-auto">
-                                        <h2>Learn more</h2>
-                                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-                                                odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati
-                                                incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem,
-                                                in, quo totam.</p>
+                                        <p class="lead">Deliver experiences your customers will love</p>
+                                        <p><button class="button">Contact us</button></p> 
                                 </div>
                         </div>
                 </div>
@@ -171,6 +188,16 @@
                 </div>
 
         </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Plugin JavaScript -->
+        <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+        <!-- Custom JavaScript for this theme -->
+        <script src="js/scrolling-nav.js"></script>
 </body>
 
 </html>
