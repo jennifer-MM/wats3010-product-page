@@ -4,7 +4,6 @@
 }
 
 
-
 header {
     color: black;
     text-align: center;
@@ -20,6 +19,23 @@ header {
 }
 
 
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: navy;
+    margin: 0;
+    padding: 0 10px 15px 10px;
+    letter-spacing: .2rem;
+    font-size: 3rem;
+
+}
+
+ul.features {
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+    font-size: 2rem;
+}
+
   /*ul.copyright {
     padding: 0 10px;
     list-style-type: none;
@@ -30,16 +46,8 @@ header {
   }
   */
 
-  /* dot for the bulleted list
-  .dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-  } */
   
-/*images side by side*/
+
 
 /* Three columns side by side */
 .column {
